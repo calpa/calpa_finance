@@ -8,10 +8,15 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
+    "@serverless/cloud": "^2.10.12",
     "dotenv": "^16.0.1",
     "neo4j-driver": "^4.4.7",
     "prettier": "^2.7.1"
+  },
+  "serverless": {
+    "app": "calpa-finance",
+    "org": "calpa"
   }
 }
